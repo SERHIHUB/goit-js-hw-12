@@ -8,12 +8,23 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <load ="partials/header.html" />
+    <!-- <load ="partials/header.html" /> -->
 
     <section>
-      <h1>Lorem ipsum dolor sit amet.</h1>
+      <h1>Пошук зображень.</h1>
       <!-- Path to images as from index.html file -->
-      <img src="./img/javascript.svg" alt="" />
+      <!-- <img src="./img/javascript.svg" alt="" /> -->
+
+      <form class="form">
+        <input class="input" type="text" />
+        <button class="btn" type="submit">Search</button>
+      </form>
+
+      <ul class="gallery"></ul>
+      <div class="load-container">
+        <button class="load-btn" type="submit">Load more</button>
+      </div>
+      <span class="spinner"></span>
     </section>
 
     <!-- Loads the specified .html file -->
